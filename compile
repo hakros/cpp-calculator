@@ -1,4 +1,4 @@
 #!/bin/bash
 # This script will compile the project into an executable file
 
-g++ $1
+g++ -o calculator.exe $1
