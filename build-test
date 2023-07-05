@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd build
+cmake ..
+cmake --build ./
+./Debug/CalculatorTest.exe
+./Debug/Calculator.exe
